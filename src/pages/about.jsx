@@ -1,14 +1,17 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="라면머겅?">
-      {/* <p>너꺼 홈페이지 만들어줄껭 ㅎㅎㅎ 함 바죠!!!</p> */}
+    <Layout pageTitle="About Me">
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
     </Layout>
   )
 }
 
-export const Head = () => <title>혜리미닷</title>
+// Rest of the component...
+
+export const Head = () => <Seo title="About Me" />
 
 export default AboutPage
